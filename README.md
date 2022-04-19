@@ -6,6 +6,7 @@
 4. Deschide Pycharm -> New project </br>
 5. In terminal: pip install selenium </br> 
 Daca nu merge asa, incercati cu py -m pip install selenium </br>
-7. In terminal: pip install webdriver-manager </br>
-8. New Python file - copiaza aici continutul testului start_test
-9. Click dreapta in fisier si run
+6. In terminal: pip install webdriver-manager </br>
+Daca nu merge asa, incercati cu py -m pip install webdriver-manager </br>
+7. New Python file - copiaza aici continutul testului start_test
+8. Click dreapta in fisier si run
