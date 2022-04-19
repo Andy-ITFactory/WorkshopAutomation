@@ -16,21 +16,21 @@ chrome.maximize_window()
 chrome.get('https://formy-project.herokuapp.com/form')
 
 # cu sleep putem pune pauza de cateva secunde sa asteptam sa vedem si noi ceva
-sleep(1)
+sleep(3)
 
 # gasim first name dupa ID si scriem valori in formular
 chrome.find_element(By.ID, 'first-name').send_keys("Andy")
-sleep(1)
+sleep(3)
 
 # vom completa la workshop last name si job title
 
 # gasim butonul de Submit dupa textul de pe link si dam click pe el
 chrome.find_element(By.LINK_TEXT, 'Submit').click()
-sleep(1)
+sleep(3)
 
 # gasim titlul si verificam mesajul
-thank_you_msg = chrome.find_element(By.XPATH, '/html/body/div/h1')
-assert thank_you_msg.text == 'Thanks for submitting your form'
+thank_you_msg = chrome.find_element(By.XPATH, '/html/body/div/h1').text
+assert thank_you_msg == 'Thanks for submitting your form'
 
 # verificati voi mesajul de mai jos "The form was successfully submitted!"
 
