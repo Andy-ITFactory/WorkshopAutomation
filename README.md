@@ -1,8 +1,8 @@
 # Workshop_Automation
 
-1. Install Google Chrome </br>
-2. Install Pycharm Community Edition: https://www.jetbrains.com/pycharm/download/ </br>
-3. Install Python https://www.python.org/downloads/ </br>
+1. Install Google Chrome \
+2. Install Pycharm Community Edition: https://www.jetbrains.com/pycharm/download/ \
+3. Install Python https://www.python.org/downloads/ \
 4. Deschide Pycharm -> New project </br>
 5. In terminal: pip install selenium </br> 
 6. In terminal: pip install webdriver-manager </br>
