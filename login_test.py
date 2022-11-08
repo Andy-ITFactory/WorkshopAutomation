@@ -17,3 +17,6 @@ sleep(3)
 
 # inchidem chrome
 chrome.quit()
+
+# daca a trecut testul, printam in consola un mesaj de succes
+print('SUCCESS - TEST PASSED')
