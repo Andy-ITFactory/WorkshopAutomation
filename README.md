@@ -7,7 +7,5 @@
 5. Click dr pe nume proiect -> New -> Python file -> login_test </br>
 6. Copiaza aici continutul testului login_test </br>
 7. In tab-ul de jos 'Python Packages' cautati si instalati 'selenium' </br>
-8. In tab-ul de jos 'Python Packages' cautati si instalati 'webdriver-manager' </br>
-9. In tab-ul de jos 'Python Packages' cautati si instalati 'packaging' </br>
-10. Click dreapta pe login_test si RUN </br>
-11. Voila! </br>
+9. Click dreapta pe login_test si RUN </br>
+9. Voila! </br>
