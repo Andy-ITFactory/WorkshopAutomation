@@ -1,13 +1,10 @@
 # avem nevoie sa importam cateva librarii gratuite care ne ajuta sa controlam chrome
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from time import sleep
 
 # initializam chrome
-s = Service(ChromeDriverManager().install())
-chrome = webdriver.Chrome(service=s)
+chrome = webdriver.Chrome()
 
 # maximizam fereastra
 chrome.maximize_window()
@@ -35,4 +32,4 @@ assert thank_you_msg == 'Thanks for submitting your form'
 # verificati voi mesajul de mai jos "The form was successfully submitted!"
 
 # daca a trecut testul, printam in consola un mesaj de succes
-print('SUCCES - TEST PASSED')
+print('SUCCESS - TEST PASSED')
