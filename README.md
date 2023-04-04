@@ -9,3 +9,9 @@
 7. Tine cursorul (hover) peste selenium (momentan e subliniat cu rosu). Selecteaza Install package </br>
 9. Click dreapta pe login_test si RUN </br>
 9. Voila! </br>
+</br>
+Troubleshoot pt. pct. 7
+</br>
+In terminal scrieti 'pip install selenium'
+</br>
+sau 'py -m pip install selenium'
