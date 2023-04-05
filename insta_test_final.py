@@ -23,7 +23,7 @@ sleep(3)
 chrome.find_element(By.XPATH, '//span[text()="Sign up"]').click()
 sleep(3)
 
-# dam click pe sign up
+# dam click pe log in
 chrome.find_element(By.XPATH, '//a[text()="Log in"]').click()
 sleep(3)
 
