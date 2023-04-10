@@ -23,7 +23,7 @@ chrome.maximize_window()
 chrome.find_element(By.ID, "firstName").send_keys("Andy")
 sleep(1)
 
-# exercitiu: completam impreuna last name apoi punem un sleep de 3 secunde
+# exercitiu: completam impreuna last name apoi punem un sleep
 chrome.find_element(By.ID, "lastName").send_keys("Sinpetrean")
 sleep(1)
 
