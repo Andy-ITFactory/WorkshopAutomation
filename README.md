@@ -6,7 +6,7 @@
 4. Deschide Pycharm -> New project -> Create </br>
 5. Click dr pe nume proiect -> New -> Python file -> login_test </br>
 6. Copiaza aici continutul testului login_test (il gasiti mai sus) </br>
-7. Tine cursorul (hover) peste selenium (momentan e subliniat cu rosu). Selecteaza Install package </br>
+7. Click pe 'selenium' subliniat cu rosu, click pe bec, selecteaza Install package </br>
 9. Click dreapta pe fisier si RUN </br>
 9. Voila! </br>
 </br>
