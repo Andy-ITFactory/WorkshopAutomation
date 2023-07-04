@@ -14,6 +14,7 @@ sleep(3)
 # navigam catre un url (mega image home page)
 
 # dam click pe Accept cookies
+# chrome.find_element(By.XPATH, '//*[@data-testid="de_gasit_si_completat_id_corect"]').click()
 
 # dam click pe Contul meu
 
