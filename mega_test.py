@@ -3,17 +3,23 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from time import sleep
 
-# initializam chrome
+# deschidem chrome
 chrome = webdriver.Chrome()
-
-# maximizam fereastra
-chrome.maximize_window()
-
-# navigam catre un url
-chrome.get('https://www.mega-image.ro/')
 
 # cu sleep putem pune pauza de cateva secunde sa asteptam sa vedem si noi ceva
 sleep(3)
+
+# maximizam fereastra
+
+# navigam catre un url (mega image home page)
+
+# dam click pe Accept cookies
+
+# dam click pe Contul meu
+
+# dam click pe Continua
+
+# verificam mesajul de eroare "Te rugam sa introduci adresa de e-mail sau numarul de telefon"
 
 # inchidem chrome
 chrome.quit()
