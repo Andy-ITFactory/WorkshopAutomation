@@ -14,4 +14,12 @@ sleep(3)
 # navigam catre un url: 'https://demoqa.com/automation-practice-form' (Aici incercati sa gasiti singuri comanda)
 
 # gasim un element dupa ID si trimitem date de la tastatura
-# chrome.find_element(By.ID, 'firstName').send_keys('Andy')
+# chrome.find_element(By.ID, '').send_keys('')
+
+# continuam cu restul elementelor required 
+
+# inchidem chrome
+chrome.quit()
+
+# daca a trecut testul, printam in consola un mesaj de succes
+print('SUCCESS - TEST PASSED')
